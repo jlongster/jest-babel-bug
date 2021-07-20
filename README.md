@@ -24,8 +24,7 @@ The problem is that jest hoists the whole `jest.mock('fs', () => ...)` block up 
 
 The result looks like this:
 
-```
-
+```js
 _getJestObj().mock('fs', function () {
   var _jest$requireActual = jest.requireActual('fs'),
       _writeFileSync = _jest$requireActual.writeFileSync,
