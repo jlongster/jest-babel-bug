@@ -47,3 +47,5 @@ var _excluded = ["writeFileSync"];
 ```
 
 Note how `_excluded` is _after_ the mock code. That doesn't work for some reason (although I thought _var_ would work like this...). `_excluded` is `undefined` when passed into `_objectWithoutProperties` and causing this exception.
+
+Filed at https://github.com/facebook/jest/issues/11680
