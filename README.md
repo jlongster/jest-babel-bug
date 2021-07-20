@@ -2,7 +2,7 @@
 # This is a bug.
 
 * Jest: 27.0.6
-* @babel/preset-env: 7.14.8,
+* @babel/preset-env: 7.14.8
 
 Run `jest test.js` and you will get:
 
